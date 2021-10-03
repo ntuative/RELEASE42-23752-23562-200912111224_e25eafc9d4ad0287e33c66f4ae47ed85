@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="marketplace_expired_item" width="20" height="20" version="0.0">
+  <window>
+    <border x="0" y="0" width="310" height="52" params="17" style="0" color="0xeeeeee">
+      <children>
+        <bitmap x="6" y="6" width="40" height="40" params="16" style="0" name="item_image" tags="BITMAP" width_min="40" width_max="40"/>
+        <text x="60" y="4" width="160" height="11" params="16" style="0" name="item_name" caption="">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="60" y="16" width="160" height="11" params="16" style="0" name="item_desc" caption="">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="60" y="31" width="160" height="12" params="16" style="0" name="item_expired" caption="">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0x0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <button x="253" y="14" width="50" height="21" params="393233" style="0" name="pick_button" caption="%24%7Bcatalog.marketplace.offer.pick%7D"/>
+      </children>
+    </border>
+  </window>
+</layout>
